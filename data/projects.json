@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "title": "智能问答系统",
+        "description": "基于深度学习的智能问答系统，支持自然语言处理和多轮对话功能。使用BERT模型进行语义理解，结合知识图谱实现精准回答。",
+        "tags": ["AI", "Web"],
+        "popularity": 120,
+        "date": "2026-03-15",
+        "image": "",
+        "features": [
+            "支持多轮对话上下文理解",
+            "集成知识图谱API",
+            "响应式Web界面",
+            "实时情感分析"
+        ],
+        "links": {
+            "github": "https://github.com/techclub/qa-system",
+            "demo": "https://demo.techclub.edu.cn/qa"
+        },
+        "team": ["张三", "李四", "王五"],
+        "technologies": ["Python", "TensorFlow", "FastAPI", "React"]
+    },
+    {
+        "id": 2,
+        "title": "校园二手交易平台",
+        "description": "专为大学生设计的二手物品交易平台，支持物品发布、在线聊天、交易评价等功能。采用现代Web技术栈，界面简洁美观。",
+        "tags": ["Web", "Data"],
+        "popularity": 95,
+        "date": "2026-02-20",
+        "image": "",
+        "features": [
+            "实时即时通讯",
+            "智能推荐系统",
+            "完善的评价体系",
+            "安全支付集成"
+        ],
+        "links": {
+            "github": "https://github.com/techclub/secondhand",
+            "demo": "https://secondhand.techclub.edu.cn"
+        },
+        "team": ["赵六", "钱七", "孙八"],
+        "technologies": ["Vue.js", "Node.js", "MongoDB", "Socket.io"]
+    },
+    {
+        "id": 3,
+        "title": "2D像素冒险游戏",
+        "description": "一款基于Unity开发的2D像素风格冒险游戏，包含丰富的关卡设计、角色升级系统和装备收集机制。",
+        "tags": ["Game"],
+        "popularity": 150,
+        "date": "2026-04-01",
+        "image": "",
+        "features": [
+            "50+精心设计关卡",
+            "角色技能树系统",
+            "多样化敌人AI",
+            "本地多人合作模式"
+        ],
+        "links": {
+            "github": "https://github.com/techclub/pixel-adventure",
+            "demo": "https://game.techclub.edu.cn"
+        },
+        "team": ["周九", "吴十", "郑十一"],
+        "technologies": ["Unity", "C#", "Photoshop", "Aseprite"]
+    },
+    {
+        "id": 4,
+        "title": "学生成绩分析系统",
+        "description": "基于数据挖掘技术的学生成绩分析系统，能够识别学习模式、预测考试表现，并提供个性化学习建议。",
+        "tags": ["Data", "AI"],
+        "popularity": 80,
+        "date": "2026-01-10",
+        "image": "",
+        "features": [
+            "成绩数据可视化",
+            "学习行为分析",
+            "成绩预测模型",
+            "个性化建议生成"
+        ],
+        "links": {
+            "github": "https://github.com/techclub/grade-analysis",
+            "demo": "https://analytics.techclub.edu.cn"
+        },
+        "team": ["王十二", "冯十三", "陈十四"],
+        "technologies": ["Python", "Pandas", "Scikit-learn", "Matplotlib"]
+    },
+    {
+        "id": 5,
+        "title": "校园导航小程序",
+        "description": "基于微信小程序的校园导航应用，支持室内外定位、路径规划、AR实景导航等功能。",
+        "tags": ["Web", "AI"],
+        "popularity": 110,
+        "date": "2026-03-28",
+        "image": "",
+        "features": [
+            "实时位置追踪",
+            "室内外无缝导航",
+            "AR实景指引",
+            "设施查询与预约"
+        ],
+        "links": {
+            "github": "https://github.com/techclub/campus-nav",
+            "demo": "https://nav.techclub.edu.cn"
+        },
+        "team": ["褚十五", "卫十六", "蒋十七"],
+        "technologies": ["微信小程序", "JavaScript", "高德地图API", "WebRTC"]
+    },
+    {
+        "id": 6,
+        "title": "策略卡牌对战游戏",
+        "description": "一款集换式卡牌对战游戏，玩家可以收集卡牌、构建卡组、与其他玩家进行策略对战。支持在线匹配和排行榜系统。",
+        "tags": ["Game", "Web"],
+        "popularity": 135,
+        "date": "2026-04-10",
+        "image": "",
+        "features": [
+            "200+独特卡牌",
+            "实时在线对战",
+            "赛季排名系统",
+            "卡组分享社区"
+        ],
+        "links": {
+            "github": "https://github.com/techclub/card-game",
+            "demo": "https://cards.techclub.edu.cn"
+        },
+        "team": ["沈十八", "韩十九", "杨二十"],
+        "technologies": ["React", "Socket.io", "Node.js", "Canvas API"]
+    },
+    {
+        "id": 7,
+        "title": "智能图书馆助手",
+        "description": "基于计算机视觉和自然语言处理的图书馆智能助手系统，支持图书识别、智能推荐、语音查询等功能。",
+        "tags": ["AI", "Data"],
+        "popularity": 75,
+        "date": "2026-02-05",
+        "image": "",
+        "features": [
+            "图书封面识别",
+            "智能借阅推荐",
+            "语音交互界面",
+            "馆藏位置导航"
+        ],
+        "links": {
+            "github": "https://github.com/techclub/library-ai",
+            "demo": "https://library.techclub.edu.cn"
+        },
+        "team": ["朱二十一", "秦二十二", "尤二十三"],
+        "technologies": ["Python", "OpenCV", "PyTorch", "FastAPI"]
+    },
+    {
+        "id": 8,
+        "title": "社团管理系统",
+        "description": "全功能的学生社团管理系统，支持成员管理、活动发布、财务管理、审批流程等模块。采用现代化的UI设计和高效的后端架构。",
+        "tags": ["Web", "Data"],
+        "popularity": 90,
+        "date": "2026-03-01",
+        "image": "",
+        "features": [
+            "多级权限管理",
+            "活动报名系统",
+            "财务报表生成",
+            "消息通知推送"
+        ],
+        "links": {
+            "github": "https://github.com/techclub/club-management",
+            "demo": "https://management.techclub.edu.cn"
+        },
+        "team": ["许二十四", "何二十五", "吕二十六"],
+        "technologies": ["React", "Spring Boot", "MySQL", "Redis"]
+    }
+]

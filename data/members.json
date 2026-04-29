@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "张三",
+        "role": "社团主席",
+        "avatar": "👨‍💻",
+        "bio": "热爱编程，专注于人工智能领域，有丰富的项目经验。",
+        "skills": ["Python", "TensorFlow", "机器学习", "深度学习"],
+        "contributions": [
+            "组织20+技术分享会",
+            "领导智能问答系统项目",
+            "培养10+新成员技术能力"
+        ],
+        "email": "zhangsan@techclub.edu.cn",
+        "github": "https://github.com/zhangsan"
+    },
+    {
+        "id": 2,
+        "name": "李四",
+        "role": "技术负责人",
+        "avatar": "👩‍💻",
+        "bio": "全栈开发工程师，擅长前后端开发和系统架构设计。",
+        "skills": ["React", "Node.js", "TypeScript", "MongoDB"],
+        "contributions": [
+            "设计社团管理系统架构",
+            "优化校园二手平台性能",
+            "建立代码审查流程"
+        ],
+        "email": "lisi@techclub.edu.cn",
+        "github": "https://github.com/lisi"
+    },
+    {
+        "id": 3,
+        "name": "王五",
+        "role": "前端开发组长",
+        "avatar": "🧑‍💻",
+        "bio": "专注于前端技术，追求极致的用户体验和界面设计。",
+        "skills": ["Vue.js", "CSS3", "JavaScript", "响应式设计"],
+        "contributions": [
+            "设计社团官网UI界面",
+            "开发校园导航小程序",
+            "培训前端开发技能"
+        ],
+        "email": "wangwu@techclub.edu.cn",
+        "github": "https://github.com/wangwu"
+    },
+    {
+        "id": 4,
+        "name": "赵六",
+        "role": "后端开发组长",
+        "avatar": "👨‍🔬",
+        "bio": "资深后端工程师，擅长微服务架构和数据库优化。",
+        "skills": ["Java", "Spring Boot", "MySQL", "Redis"],
+        "contributions": [
+            "设计高性能API网关",
+            "优化数据库查询性能",
+            "实现用户认证系统"
+        ],
+        "email": "zhaoliu@techclub.edu.cn",
+        "github": "https://github.com/zhaoliu"
+    },
+    {
+        "id": 5,
+        "name": "钱七",
+        "role": "游戏开发组长",
+        "avatar": "🎮",
+        "bio": "热爱游戏开发，专注于Unity引擎和游戏机制设计。",
+        "skills": ["Unity", "C#", "游戏设计", "2D/3D建模"],
+        "contributions": [
+            "开发像素冒险游戏",
+            "设计卡牌对战机制",
+            "组织游戏开发工作坊"
+        ],
+        "email": "qianqi@techclub.edu.cn",
+        "github": "https://github.com/qianqi"
+    },
+    {
+        "id": 6,
+        "name": "孙八",
+        "role": "数据科学家",
+        "avatar": "📊",
+        "bio": "专注于数据分析和机器学习，擅长从数据中发现价值。",
+        "skills": ["Python", "Pandas", "Scikit-learn", "数据可视化"],
+        "contributions": [
+            "开发成绩分析系统",
+            "实现智能推荐算法",
+            "分析社团活动数据"
+        ],
+        "email": "sunba@techclub.edu.cn",
+        "github": "https://github.com/sunba"
+    },
+    {
+        "id": 7,
+        "name": "周九",
+        "role": "UI/UX设计师",
+        "avatar": "🎨",
+        "bio": "专注于用户体验设计，追求美观与实用的完美结合。",
+        "skills": ["Figma", "Photoshop", "用户研究", "交互设计"],
+        "contributions": [
+            "设计所有项目UI界面",
+            "建立设计系统规范",
+            "优化用户体验流程"
+        ],
+        "email": "zhoujiu@techclub.edu.cn",
+        "github": "https://github.com/zhoujiu"
+    },
+    {
+        "id": 8,
+        "name": "吴十",
+        "role": "运维工程师",
+        "avatar": "🔧",
+        "bio": "负责系统运维和部署，确保项目稳定运行。",
+        "skills": ["Linux", "Docker", "Kubernetes", "CI/CD"],
+        "contributions": [
+            "搭建自动化部署流程",
+            "监控系统运行状态",
+            "优化服务器性能"
+        ],
+        "email": "wushi@techclub.edu.cn",
+        "github": "https://github.com/wushi"
+    }
+]

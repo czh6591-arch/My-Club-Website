@@ -132,6 +132,12 @@ body {
     font-weight: 700;
 }
 
+.logo-svg {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
 .logo-icon {
     background: var(--gradient-primary);
     -webkit-background-clip: text;

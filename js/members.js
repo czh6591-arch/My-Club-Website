@@ -143,7 +143,17 @@ function bindMemberCardEvents() {
     memberCards.forEach(card => {
         // 点击翻转
         card.addEventListener('click', () => {
+            const cardInner = card.querySelector('.member-card-inner');
+            
+            // 切换翻转状态
             card.classList.toggle('flipped');
+            
+            // 关键：清除内联样式，让 CSS 类完全控制翻转效果
+            // 内联样式优先级高于 CSS 类，所以必须清除
+            if (cardInner) {
+                cardInner.style.transform = '';
+                cardInner.style.transition = '';
+            }
         });
         
         // 鼠标悬停3D倾斜效果
@@ -162,6 +172,12 @@ function bindMemberCardEvents() {
  * 处理卡片3D倾斜效果
  */
 function handleCardTilt(e, card) {
+    // 如果卡片已翻转，不应用3D倾斜效果
+    // 这样用户在查看背面详细信息时不会受到干扰
+    if (card.classList.contains('flipped')) {
+        return;
+    }
+    
     const cardInner = card.querySelector('.member-card-inner');
     if (!cardInner) return;
     
@@ -189,12 +205,17 @@ function resetCardTilt(card) {
     const cardInner = card.querySelector('.member-card-inner');
     if (!cardInner) return;
     
-    // 恢复原始状态
+    // 如果卡片已翻转，不设置内联样式，让 CSS 类完全控制
+    // 这样可以避免内联样式覆盖 CSS 类的效果
     if (card.classList.contains('flipped')) {
-        cardInner.style.transform = 'rotateY(180deg)';
-    } else {
-        cardInner.style.transform = 'rotateY(0deg)';
+        // 清除内联样式，让 CSS 类的 rotateY(180deg) 生效
+        cardInner.style.transform = '';
+        cardInner.style.transition = '';
+        return;
     }
+    
+    // 恢复正面原始状态
+    cardInner.style.transform = 'rotateY(0deg)';
     cardInner.style.transition = 'transform 0.3s ease-out';
 }
 

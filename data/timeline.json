@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "date": "2026-04-15",
+        "title": "春季编程马拉松",
+        "description": "为期48小时的编程马拉松活动，30支队伍参与，主题为'科技创新，服务校园'。最终评选出一等奖1名，二等奖2名，三等奖3名。",
+        "type": "major",
+        "historical": false
+    },
+    {
+        "id": 2,
+        "date": "2026-03-20",
+        "title": "人工智能技术分享会",
+        "description": "邀请了计算机学院李教授进行关于大语言模型的专题分享，吸引了150多名师生参与。分享内容包括GPT原理、应用场景和未来发展趋势。",
+        "type": "workshop",
+        "historical": false
+    },
+    {
+        "id": 3,
+        "date": "2026-03-10",
+        "title": "新学期招新活动",
+        "description": "新学期招新圆满结束，共招收新成员45名，涵盖大一到大四各个年级。新成员将通过为期两周的培训后正式加入各项目组。",
+        "type": "event",
+        "historical": false
+    },
+    {
+        "id": 4,
+        "date": "2026-02-25",
+        "title": "Web开发训练营",
+        "description": "为期两周的Web开发训练营，从HTML/CSS基础到React框架实战，帮助新成员快速掌握现代Web开发技术。最终完成了10个小项目。",
+        "type": "workshop",
+        "historical": false
+    },
+    {
+        "id": 5,
+        "date": "2026-02-10",
+        "title": "项目评审会议",
+        "description": "对社团现有8个项目进行季度评审，评选出最佳项目、最佳技术创新、最佳团队协作等奖项。智能问答系统和像素冒险游戏分获前两名。",
+        "type": "event",
+        "historical": true
+    },
+    {
+        "id": 6,
+        "date": "2026-01-20",
+        "title": "寒假技术培训",
+        "description": "利用寒假时间组织线上技术培训，内容包括Python高级编程、数据库优化、DevOps实践等。共组织了8场线上直播，参与人数超过100人。",
+        "type": "workshop",
+        "historical": true
+    },
+    {
+        "id": 7,
+        "date": "2025-12-25",
+        "title": "圣诞技术派对",
+        "description": "社团年度总结大会暨圣诞派对，回顾一年来的成就，展望未来发展。表彰了年度优秀成员，并进行了礼物交换和游戏互动环节。",
+        "type": "event",
+        "historical": true
+    },
+    {
+        "id": 8,
+        "date": "2025-11-30",
+        "title": "秋季编程竞赛",
+        "description": "与计算机学院联合举办的秋季编程竞赛，共120名选手参赛，采用ACM赛制。题目涵盖算法、数据结构、动态规划等多个知识点。",
+        "type": "major",
+        "historical": true
+    },
+    {
+        "id": 9,
+        "date": "2025-10-15",
+        "title": "开源贡献日",
+        "description": "组织成员参与开源项目贡献活动，学习如何为开源项目提交PR。当天共提交了15个PR到不同的开源项目，获得了社区的积极反馈。",
+        "type": "workshop",
+        "historical": true
+    },
+    {
+        "id": 10,
+        "date": "2025-09-20",
+        "title": "新学期见面会",
+        "description": "新学期开始，社团举办迎新见面会，介绍社团历史、文化和现有项目。新老成员相互认识，为后续项目合作奠定基础。",
+        "type": "event",
+        "historical": true
+    }
+]

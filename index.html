@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>编程技术社团 - 创新 · 协作 · 成长</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">{"</span>
+                <span class="logo-text">TechClub</span>
+                <span class="logo-icon">"}</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">首页</a></li>
+                <li><a href="#about" class="nav-link">社团介绍</a></li>
+                <li><a href="#projects" class="nav-link">项目展示</a></li>
+                <li><a href="#members" class="nav-link">成员展示</a></li>
+                <li><a href="#timeline" class="nav-link">活动时间轴</a></li>
+                <li><a href="#contact" class="nav-link">联系我们</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="搜索项目或成员...">
+                    <button id="search-btn" class="search-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </button>
+                </div>
+                <button id="theme-toggle" class="theme-toggle" aria-label="切换主题">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="section hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="gradient-text">编程技术社团</span>
+                </h1>
+                <p class="hero-subtitle">创新 · 协作 · 成长</p>
+                <p class="hero-description">
+                    我们是一群热爱编程的大学生，致力于探索技术的边界，创造有价值的项目。
+                    加入我们，与志同道合的伙伴一起成长！
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">查看项目</a>
+                    <a href="#contact" class="btn btn-secondary">加入我们</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-cards">
+                    <div class="floating-card card-1">
+                        <div class="card-icon">{"</div>
+                        <div class="card-text">JavaScript</div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <div class="card-icon">🐍</div>
+                        <div class="card-text">Python</div>
+                    </div>
+                    <div class="floating-card card-3">
+                        <div class="card-icon">☕</div>
+                        <div class="card-text">Java</div>
+                    </div>
+                    <div class="floating-card card-4">
+                        <div class="card-icon">⚛️</div>
+                        <div class="card-text">React</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+            <span>向下滚动查看更多</span>
+        </div>
+    </section>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">社团介绍</h2>
+                <p class="section-subtitle">了解我们的使命与愿景</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        编程技术社团成立于2018年，是一个由热爱编程的大学生自发组织的技术社团。
+                        我们的宗旨是"创新、协作、成长"，致力于为同学们提供一个交流技术、分享经验、共同成长的平台。
+                    </p>
+                    <p>
+                        社团成员来自计算机科学与技术、软件工程、数据科学等多个专业，
+                        涵盖了前端开发、后端开发、人工智能、游戏开发等多个技术领域。
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">社团成员</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">30+</div>
+                        <div class="stat-label">完成项目</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">技术分享会</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">获奖经历</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-features">
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>技术创新</h3>
+                    <p>探索前沿技术，培养创新思维，鼓励成员尝试新的技术栈和开发理念</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>团队协作</h3>
+                    <p>通过项目实践，学习团队协作，提升沟通能力和项目管理能力</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>持续学习</h3>
+                    <p>定期举办技术分享会、代码review，营造良好的学习氛围</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">项目展示</h2>
+                <p class="section-subtitle">探索我们的优秀项目</p>
+            </div>
+            <div class="projects-controls">
+                <div class="filter-tags">
+                    <button class="filter-tag active" data-tag="all">全部</button>
+                    <button class="filter-tag" data-tag="AI">AI</button>
+                    <button class="filter-tag" data-tag="Web">Web</button>
+                    <button class="filter-tag" data-tag="Game">Game</button>
+                    <button class="filter-tag" data-tag="Data">Data</button>
+                </div>
+                <div class="sort-controls">
+                    <label for="sort-select">排序：</label>
+                    <select id="sort-select">
+                        <option value="newest">最新</option>
+                        <option value="popular">热度</option>
+                    </select>
+                </div>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- 项目卡片将通过JS动态加载 -->
+            </div>
+        </div>
+    </section>
+
+    <section id="members" class="section members-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">成员展示</h2>
+                <p class="section-subtitle">认识我们的技术大牛</p>
+            </div>
+            <div class="members-grid" id="members-grid">
+                <!-- 成员卡片将通过JS动态加载 -->
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="section timeline-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">活动时间轴</h2>
+                <p class="section-subtitle">回顾我们的精彩瞬间</p>
+            </div>
+            <div class="timeline" id="timeline">
+                <!-- 时间轴事件将通过JS动态加载 -->
+            </div>
+            <div class="timeline-controls">
+                <button id="toggle-history" class="btn btn-secondary">展开历史活动</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">联系我们</h2>
+                <p class="section-subtitle">加入我们，一起创造未来</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h3>邮箱</h3>
+                            <p>techclub@university.edu</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h3>地址</h3>
+                            <p>计算机学院实验楼302室</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💬</div>
+                        <div class="contact-details">
+                            <h3>QQ群</h3>
+                            <p>123456789</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🐙</div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <p>github.com/techclub</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">姓名</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">邮箱</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">留言</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">{"</span>
+                    <span class="logo-text">TechClub</span>
+                    <span class="logo-icon">"}</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">首页</a>
+                    <a href="#about">社团介绍</a>
+                    <a href="#projects">项目展示</a>
+                    <a href="#members">成员展示</a>
+                    <a href="#timeline">活动时间轴</a>
+                    <a href="#contact">联系我们</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link">🐙</a>
+                    <a href="#" class="social-link">🐦</a>
+                    <a href="#" class="social-link">💬</a>
+                    <a href="#" class="social-link">📧</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 编程技术社团. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 项目详情弹窗 -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="modal-body">
+                <!-- 项目详情内容将通过JS动态加载 -->
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
